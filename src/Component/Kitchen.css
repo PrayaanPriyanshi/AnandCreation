@@ -1,0 +1,387 @@
+.KitchenHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://burst.shopifycdn.com/photos/kitchen-ready-for-cooking.jpg?width=1000&format=pjpg&exif=0&iptc=0");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 50px 0; /* Adjust top and bottom padding as needed */
+    position: relative;
+    min-height: 400px;
+    backdrop-filter: brightness(70%);
+  }
+  
+  .KitchenHeader h2 {
+    font-size: 3.5rem;
+    color: black;
+    line-height: 1.25em;
+    padding: 0;
+    margin: 0;
+    border-bottom: 4px solid black;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+  }
+
+
+
+
+  /* MAIN1 styles.css */
+
+/* Apply styles to the main container */
+.KitchenMain1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .KitchenImage1 {
+    flex: 1; /* Take up remaining space */
+    margin-right: 10px; /* Set the desired gap between the two divs */
+    margin-left: 40px;
+    margin-top: 40px;
+    height: 600px;
+    width: 600px;
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .KitchenImage1 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 100%; /* Make the image take up 100% height of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply border radius if desired */
+  }
+  
+  
+  /* Apply styles to the videoRight container on the right */
+  .KitchenContent {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .KitchenContent h3 {
+    margin: 0;
+    color: #333; /* Set the desired text color */
+    font-size: 24px;
+    font-weight: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .KitchenContentImage img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 400;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .KitchenContent p {
+    text-align: center;
+    color: #555; /* Set the desired text color */
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .KitchenButton {
+    padding: 10px;
+    background-color: orange; /* Set the desired background color */
+    color: #fff; /* Set the desired text color */
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .KitchenButton:hover {
+    background-color: darkorange; /* Set the desired hover background color */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* MAIN 2 Apply styles to the main container */
+.KitchenMain1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Apply styles to the KitchenContent container on the left */
+  .KitchenContent1 {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .KitchenContent h3 {
+    margin: 0;
+    color: #333; /* Set the desired text color */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .KitchenContentImage1 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .KitchenContent p {
+    text-align: center;
+    color: #555; /* Set the desired text color */
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .KitchenButton {
+    padding: 10px;
+    background-color: orange; /* Set the desired background color */
+    color: #fff; /* Set the desired text color */
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .KitchenButton:hover {
+    background-color: darkorange; /* Set the desired hover background color */
+  }
+  
+  /* Apply styles to the KitchenImage1 container on the right */
+  .KitchenImage1 {
+    flex: 1; /* Take up remaining space */
+    margin-left: 10px; /* Set the desired gap between the two divs */
+    margin-right: 40px;
+    margin-top: 40px;
+    height: 600px;
+    width: 600px;
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .KitchenImage1 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 100%; /* Make the image take up 100% height of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply border radius if desired */
+  }
+
+
+  .KitchenImage2 {
+    flex: 1; /* Take up remaining space */
+    margin-left: 10px; /* Set the desired gap between the two divs */
+    margin-right: 40px;
+    margin-top: 40px;
+    height: 600px;
+    width: 600px;
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .KitchenImage2 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 100%; /* Make the image take up 100% height of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply border radius if desired */
+  }
+  
+
+
+  .KitchenImage3 {
+    flex: 1; /* Take up remaining space */
+    margin-left: 10px; /* Set the desired gap between the two divs */
+    margin-right: 40px;
+    margin-top: 40px;
+    height: 600px;
+    width: 600px;
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .KitchenImage3 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 100%; /* Make the image take up 100% height of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply border radius if desired */
+  }
+
+  .KitchenImage4 {
+    flex: 1; /* Take up remaining space */
+    margin-left: 10px; /* Set the desired gap between the two divs */
+    margin-right: 40px;
+    margin-top: 40px;
+    height: 600px;
+    width: 600px;
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .KitchenImage4 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 100%; /* Make the image take up 100% height of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply border radius if desired */
+  }
+
+
+  .KitchenImage5 {
+    flex: 1; /* Take up remaining space */
+    margin-left: 10px; /* Set the desired gap between the two divs */
+    margin-right: 40px;
+    margin-top: 40px;
+    height: 600px;
+    width: 600px;
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .KitchenImage5 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 100%; /* Make the image take up 100% height of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply border radius if desired */
+  }
+
+
+  .KitchenImage6 {
+    flex: 1; /* Take up remaining space */
+    margin-left: 10px; /* Set the desired gap between the two divs */
+    margin-right: 40px;
+    margin-top: 40px;
+    height: 600px;
+    width: 600px;
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .KitchenImage6 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 100%; /* Make the image take up 100% height of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply border radius if desired */
+  }
+
+  .KitchenImage7 {
+    flex: 1; /* Take up remaining space */
+    margin-left: 10px; /* Set the desired gap between the two divs */
+    margin-right: 40px;
+    margin-top: 40px;
+    height: 600px;
+    width: 600px;
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .KitchenImage7 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 100%; /* Make the image take up 100% height of its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply border radius if desired */
+  }
+
+  .KitchenContent2 {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .KitchenContentImage2 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .KitchenContent3 {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .KitchenContentImage3 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .KitchenContent4 {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .KitchenContentImage4 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .KitchenContent5 {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .KitchenContentImage5 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .KitchenContent6 {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .KitchenContentImage6 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .KitchenContent7 {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .KitchenContentImage7 img {
+    width: 100%; /* Make the image take up 100% width of its container */
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }

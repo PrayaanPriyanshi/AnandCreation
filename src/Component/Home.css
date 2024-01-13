@@ -1,0 +1,1388 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.HomeContainer{
+
+    margin-top: 40px;
+
+    display: flex;
+
+}
+
+ 
+
+.text1{
+
+    color: #ff2e77;
+
+    font-size: 1.2rem;
+
+    font-weight: 600;
+
+    margin-left: 150px;
+
+    margin-bottom: 16px;
+
+    margin-top: 30px;
+    font-family: 19.2px Poppins,sans-serif;
+
+}
+
+.text2{
+
+    width: 519px;
+
+    margin-left: 150px;
+
+    font-size: 3rem;
+color: black;
+    font-weight: 800;
+
+    line-height: 1.2;
+    font-family: 19.2px Poppins,sans-serif;
+}
+
+.para{
+
+    width: 515px;
+
+    margin-left: 137px;
+
+    font-family: sans-serif;
+
+    width: 487px;
+
+    margin-top: 23px;
+
+    margin-left: 152px;
+
+    font-family: 16px Poppins,sans-serif;
+
+}
+
+.text{
+
+    margin-left: -43px;
+    margin-top: 150px;
+    
+
+}
+
+.collection{
+
+ 
+
+    display: flex;
+
+    height: 700px;
+
+    width: 600px;
+
+ 
+
+    align-items: center;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    width: 50%;
+margin-top: -80px;
+   
+
+}
+
+/* styles.css */
+
+.knowmore {
+  background-color: orange;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 200px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:130px;
+  
+  /* Add any additional styles you want */
+}
+
+.knowmore:hover {
+  background-color: #2980b9;
+}
+
+
+.first{
+
+    border-radius: 10px;
+
+    display: flex;
+
+    height: auto;
+
+    justify-content: center;
+
+    object-fit: cover;
+
+    width: 10rem;
+
+}
+
+.second{
+
+    margin-left: 10px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    height: 450px;
+
+    justify-content: center;
+
+    object-fit: cover;
+
+    margin-top: 600px;
+
+    width: 300px;
+    margin-right: 40px;
+
+}
+
+.third{
+
+    border-radius: 10px;
+
+    display: flex;
+
+    height: 450px;
+
+    justify-content: center;
+
+    margin: 0.10rem;
+
+    object-fit: cover;
+
+    width: 300px;
+    margin-top: 50px;
+
+}
+
+/* .fourth{
+
+    border-radius: 10px;
+
+    display: flex;
+
+    height: auto;
+
+    justify-content: center;
+
+    margin: 0.8rem;
+
+    object-fit: cover;
+
+    width: 10rem;
+
+} */
+
+.fifth{
+
+    border-radius: 10px;
+
+    display: flex;
+
+    height: 450px;
+
+    justify-content: center;
+    width:300px;
+   margin-top: 400px;
+
+    margin-left: 0!important;
+
+    object-fit: cover;
+
+}
+
+.sixth{
+
+    height: 450px;
+
+    width: 300px;
+
+    margin-top: 7px;
+
+    border-radius: 10px;
+
+    margin-left: 2px;
+    margin-top: 40px;
+
+}
+.main2 {
+    display: flex;
+    margin-top: 300px; /* Add margin on top as needed */
+}
+
+.img1,
+.img2 {
+    flex: 1;
+    margin: 0 10px; /* Adjust margin as needed */
+    
+}
+
+.img1 img,
+.img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+}
+.hovered {
+    position: relative;
+  }
+  
+  .hovered::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: rgb(252, 204, 114);
+    transition: top 0.5s ease-in-out;
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .hovered:hover::before {
+    top: 0;
+  }
+  /* .main3{
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+  MyComponent.css */
+
+
+
+
+
+  /* Apply styles to the main container */
+.main3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px; /* Add padding inside the main container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Apply styles to the left content container */
+.main3 > div:first-child {
+    flex: 1;
+    max-width: 600px; /* Set maximum width for the left content */
+}
+
+/* Apply styles to the right image container */
+.main3 > div:last-child {
+    flex: 1;
+    max-width: 600px; /* Set maximum width for the right image */
+}
+
+/* Apply styles to the images */
+.main3 img {
+    width: 130%; /* Make the image fill the entire width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Add border radius to the image */
+}
+
+/* Apply styles to the text content */
+.main3 h3 {
+    margin-bottom: 10px;
+   font: 28px,sans-serif;
+    color: orange; /* Set heading and paragraph color to orange */
+}
+ .main3 h1{
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 140px;
+    margin-left: -22px;
+ }
+ .main3 p {
+    
+    margin: 10px; /* Set margin of the paragraph to zero */
+}
+.contectnow{
+  background-color:orange;
+color: #ffffff;
+padding: 10px 20px;
+font-size: 20px;
+margin-top: 40px;
+margin-left: 200px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+width:160px;
+
+
+}
+
+.contectnow:hover {
+background-color: #2980b9;
+}
+ 
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main3 {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .main3 > div {
+        max-width: 100%; /* Full width for both content and image on smaller screens */
+    }
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  /* video  styles.css */
+
+/* Apply styles to the main container */
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the main container */
+.main4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  background: url('https://img.freepik.com/free-photo/3d-rendering-modern-kitchen-counter-with-white-biege-design_105762-2228.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704844800&semt=ais') center/cover fixed; /* Set the background image */
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+/* Apply styles to the left container */
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1;
+  margin-right: 50px; 
+}
+
+/* Apply styles to each individual div on the left */
+
+.left .div2,
+.left .div3,
+.left .div4 {
+  flex: 0 0 48%;
+  padding: 20px;
+  border: 1px solid #aaa;
+  background-color: white;
+  color: white;/* Set the desired background color with transparency */
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.left .div2:hover,
+.left .div3:hover,
+.left .div4:hover {
+  background-color: black; /* Set the desired background color on hover */
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+  color: orange; /* Set the desired text color on hover */
+}
+.left .div1{
+background-color: black;
+color: white;
+border: 2px white;
+margin-bottom: 10px;
+  box-sizing: border-box;
+  flex: 0 0 48%;
+  padding: 20px;
+}
+
+/* Apply styles to the h3 elements inside each div on the left */
+
+.left .div2 h3,
+.left .div3 h3,
+.left .div4 h3 {
+  margin: 0;
+  color: #333;
+}
+
+/* Apply styles to the right container */
+.right {
+  flex: 1;
+  text-align: left;
+  padding: 20px; /* Add padding to separate content from the container edges */
+
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+/* Apply styles to the h3 and h1 elements inside the right container */
+.right h3
+ {
+  margin: 0;
+  color: orange;
+  font-size: 22px;
+  margin-left: 25px;
+}
+
+/* Apply styles to the h7 element inside the right container */
+.right h7 {
+  margin: 10px 0;
+  color:white;
+}
+
+/* Apply styles to the button inside the right container */
+.right button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+  /* styles.css */
+
+/* Apply styles to the main container */
+.main5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Apply styles to the video container on the left */
+  .video {
+    flex: 1; /* Take up remaining space */
+    margin-right: 10px; /* Set the desired gap between the two divs */
+  }
+  
+  /* Apply styles to the videoRight container on the right */
+  .videoRight {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  /* Apply styles to the content inside the videoRight container */
+  .videoRight h3,
+  .videoRight h1,
+  .videoRight h7 {
+    margin: 0;
+    color: #333; /* Set the desired text color */
+  }
+  
+  /* Apply styles to the button inside the videoRight container */
+  .moreVideo {
+    padding: 10px;
+    background-color: orange; /* Set the desired background color */
+    color: #fff; /* Set the desired text color */
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+
+
+
+  /* Apply styles to the main6 container */
+.main6 {
+  width: 100%;
+  background-color: black;/* Set background color to white */
+  padding: 20px; /* Add padding for spacing */
+  margin: 20px; /* Add margin around the div */
+  box-sizing: border-box;
+}
+
+/* Apply styles to the h3 element */
+.main6h3 {
+  color: #ffd700; /* Set h3 color to yellow */
+  margin-left: 310px;
+  margin-bottom: 10px; /* Add bottom margin for spacing */
+}
+
+/* Apply styles to the h1 element */
+.main6h1 {
+  color: #fff; /* Set h1 color to white */
+  
+  margin-bottom: 15px; /* Add bottom margin for spacing */
+}
+
+/* Apply styles to the h7 element */
+.main6h7 {
+  color: #fff; /* Set h7 color to white */
+  line-height: 1.5; /* Set line height for better readability */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .main6 {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+  
+  .main6h1 {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+  
+  .main6h7 {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main7 styles.css */
+
+/* Apply styles to the main container */
+.main7 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Cover the complete width */
+  }
+  
+  /* Apply styles to each individual image container */
+  .main7 div {
+    flex: 1; /* Equal distribution of width */
+  }
+  
+  /* Apply styles to the images */
+  .main7 img {
+    width: 100%; /* Make the images fill the entire width of their container */
+    height: 300px /* Maintain aspect ratio */
+  }
+
+  .seeMore{
+    background-color: orange;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-left: 70px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:250px;
+  height: 50px;
+  
+  /* Add any additional styles you want */
+  }
+
+.seeMore:hover {
+  background-color: #2980b9;
+}
+  
+
+
+
+  /* styles.css */
+
+
+  .main8 {
+    position: relative;
+    background-image: url('https://w0.peakpx.com/wallpaper/249/188/HD-wallpaper-stylish-kitchen-interior-design-brown-furniture-in-the-kitchen-modern-interior-design-kitchen-loft-style-concrete-floor-in-the-kitchen.jpg'); /* Replace 'your-image-url.jpg' with your actual image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding: 250px 20px; /* Adjust padding as needed */
+    width: 100%; /* Adjust width to increase the size */
+    height: 100%;
+    margin: auto; /* Center the div horizontally */
+}
+ 
+  .main8::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity as needed */
+  }
+  
+  .main8 h3,
+  .main8 h1,
+  .main8 button {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main8 h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: orange; 
+  }
+  
+  .main8 h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .main8 button {
+    background-color: orange; /* Change background color to orange */
+  color: white;
+  padding: 15px 30px; /* Adjust padding for fixed size */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  width: 250px; /* Set the width */
+  height: 40px; /* Set the height */
+  
+  }
+  
+  /* Additional styling for better visual appeal */
+  .main8 button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .main8 {
+      padding: 80px 20px;
+    }
+  
+    .main8 h1 {
+      font-size: 28px;
+    }
+  }
+  
+  
+/*main 9 styles.css */
+
+/* Apply styles to the main container */
+.main9 {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    width: 100%; /* Cover the complete width */
+    background-color: rgba(0, 0, 0, 0.854); /* Light transparent black background */
+    padding: 100px; /* Add padding to the main container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Apply styles to each individual image container */
+.main9 div {
+    flex: 0 0 calc(33.33% - 10px); /* Set width for each image with some spacing */
+    margin-bottom: 20px; /* Add some space between images */
+}
+
+/* Apply styles to the images */
+.main9 img {
+    width: 100%; /* Make the images fill the entire width of their container */
+    height: 200px; /* Set the desired fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    margin: 5px; /* Add some space between images */
+}
+
+
+/* Apply styles to heading and paragraph */
+.main9 h1, .main9 p {
+    
+    color: white; /* Set heading and paragraph color to white */
+}
+
+.main9P{
+  margin-bottom: 40px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main9 div {
+        flex: 0 0 calc(50% - 10px); /* Adjust width for smaller screens */
+    }
+}
+
+
+
+
+
+  
+
+
+
+  /* styles.css */
+
+/* Apply styles to the main container */
+.main10 {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  }
+  
+  /* Apply styles to the left container */
+  .main10left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding: 20px; /* Add some padding for spacing */
+  }
+  
+  /* Apply styles to each individual content container */
+  .main10left .main10left1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add some space between content items */
+  }
+  
+  /* Apply styles to the images */
+  .main10left img {
+    width: 50px; /* Set the desired width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add some space between image and text */
+  }
+  
+  /* Apply styles to the text content */
+  .main10left h3, .main10left p {
+    margin: 0; /* Remove default margins */
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+  /* main10Right styles.css */
+
+/* Apply styles to the main container */
+.main10Right {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping to create rows */
+  }
+  
+  /* Apply styles to each individual item container */
+  .main10Right > div {
+    width: 48%; /* Set the width for each item to create a 2-column layout */
+    margin: 1%; /* Add a small margin between items */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  /* Apply styles to the images */
+  .main10Right img {
+    width: 100%; /* Make the images fill the entire width of their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Clear the margin for the last item in each row */
+  .main10Right > div:nth-child(2n) {
+    margin-right: 0;
+    
+    /* background-color: black;
+    color: white; */
+  }
+  
+  /* Additional styles for text content */
+  .main10Right h3,
+  .main10Right p {
+    margin: 10px 0; /* Add margin to the text content */
+  }
+  
+  /* Additional styles for div1Right, div2Right, div3Right, and div4Right */
+  .main10Right .div1Right,
+  .main10Right .div2Right,
+  .main10Right .div3Right,
+  .main10Right .div4Right {
+    width: 50%; /* Set the width to 100% for full width in a single column */
+    height: 300%;
+    margin: 0; /* Remove margin to make it full width */
+    background-color: black; /* Set the background color */
+    color: white; /* Set the text color */
+    padding: 10px; /* Add padding for better visibility */
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+/* Apply styles to the main container */
+.main11 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Apply styles to the left side div */
+  .main11Left {
+    flex: 0 0 48%; /* Set the width of the left side div */
+  }
+  
+  /* Apply styles to the image inside the left side div */
+  .main11Left img {
+    width: 100%; /* Make the image fill the entire width of its container */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  /* Apply styles to the right side div */
+  .main11Right {
+    flex: 0 0 48%; /* Set the width of the right side div */
+    overflow: hidden; 
+    height: 300px; /* Set the desired height */
+  width: 100%; /* Set the desired width */
+  border: 2px solid #ccc; /* Set the desired border styles */
+  padding: 10px; /* Add padding if needed */
+  box-sizing: border-box; 
+}
+  
+  /* Apply styles to the paragraphs inside the right side div */
+  .main11Right p {
+    margin-bottom: 20px; /* Add some space between paragraphs */
+  }
+  
+  .testimonials-container {
+    display: flex;
+    flex-direction: column;
+    animation: slide 10s infinite; /* Adjust the duration based on your preference */
+  }
+  @keyframes slide {
+    0%, 33.33% {
+      transform: translateY(0);
+    }
+    33.33%, 66.66% {
+      transform: translateY(-100%);
+    }
+    66.66%, 100% {
+      transform: translateY(-200%);
+    }
+  }
+  
+
+
+
+
+
+  .main12Left {
+    width: 300px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    height: 100px; /* You can adjust the height as needed */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* styles.css */
+
+.main12Right {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.main12Right1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main12Right1 h5 {
+    margin-left: 10px;
+}
+
+/* Placeholder styles for icons */
+.main12Right1 i {
+    /* Replace with actual styles for your icons */
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+}
+
+
+/* styles.css */
+
+.main12 {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.main12Left, .main12Right {
+    flex: 1;
+    background-color: rgb(48, 44, 44);
+  color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+/* Additional styles for main12Left */
+.main12Left input, .main12Left textarea, .main12Left button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Add border for input and textarea */
+    border-radius: 5px;
+}
+
+/* Additional styles for main12Right */
+.main12Right {
+    text-align: left;
+    margin-top: 20px;
+    width:100px;
+}
+
+.main12Right1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main12Right1 h5 {
+    margin-left: 10px;
+}
+
+/* Placeholder styles for icons */
+.main12Right1 i {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main12 {
+        flex-direction: column;
+    }
+
+    .main12Left, .main12Right {
+        width: 100%;
+    }
+}
+/* styles.css */
+
+.main12Left {
+  width: 100%; /* Adjusted width */
+  max-width: 300px; /* Set a maximum width */
+  margin: 20px 0 20px 20px; /* Adjusted margin */
+  background-color: rgb(48, 44, 44);
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 300px;
+}
+
+.main12Right {
+  width: 100%; /* Adjusted width */
+  max-width: 300px; /* Set a maximum width */
+  margin: 20px 20px 20px 0; /* Adjusted margin */
+  text-align: left;
+  background-color: rgb(48, 44, 44);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 300px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .main12Left,
+  .main12Right {
+    width: 100%;
+    max-width: none; /* Remove maximum width for smaller screens */
+    margin: 20px 0; /* Adjusted margin */
+  }
+}
+
+
+
+
+
+
+
+  
+/* .coll1{
+    height: 2.5rem;
+    opacity: .2;
+    width: auto;
+    display: flex;
+}
+.coll2{
+    height: 2.5rem;
+    opacity: .2;
+    width: auto;
+    display: flex;
+}
+.coll3{
+    height: 2.5rem;
+    opacity: .2;
+    width: auto;
+}
+.coll4{
+    height: 2.5rem;
+    opacity: .2;
+    width: auto;
+}
+.coll5{
+    height: 2.5rem;
+    opacity: .2;
+    width: auto;
+}
+.coll6{
+    height: 2.5rem;
+    opacity: .2;
+    width: auto;
+}
+.coll7{
+    height: 2.5rem;
+    opacity: .2;
+    width: auto;
+}
+.col-main{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.imagcollection2{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.col-child{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+.Hcard1{
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    height: 21rem;
+    
+}
+.HcardImg1{
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+    width: 60px;
+    
+    
+}
+.HcardImg2{
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+    width: 60px;
+}
+.Hcard2{
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    height: 21rem;
+}
+
+.Hcard3{
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    height: 21rem;
+}
+.HcardImg3{
+    
+    font-family: poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+    width: 60px;
+}
+
+.Hcard4{
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    height: 21rem;
+}
+.HcardImg4{
+    
+    font-family: poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 3rem;
+    width: auto
+}
+
+.Hcard5{
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    height: 21rem;
+}
+
+.HcardImg5{
+    
+    font-family: poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+    width: 60px;
+}
+.Hcard6{
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    height: 21rem;
+}
+.HcardImg6{
+    
+    font-family: poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+    width: 60px;
+}
+
+.Hcard7{
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    height: 21rem;
+}
+
+.HcardImg7{
+    
+    font-family: poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+    width: 60px;
+}
+
+.Hcard8{
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    height: 21rem;
+}
+
+.HcardImg8{
+    
+    font-family: poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+    width: 60px;
+}
+
+.HcardParent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    
+}
+.HcontainerHeading{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.hright-image{
+    
+    
+    width: 500px;}
+
+
+.Hcontainer-2{
+    display: flex;
+    margin-top: 200px;
+}
+
+.Hleft-card-main{
+    height: 300px; 
+    width: 635px;
+}
+.Hreson{
+    opacity: .5;
+}
+
+.Hleft-para{
+    font-family: poppins,sans-serif;
+    color: #ff2e77;
+    font-size: 16px;
+}
+.Hleft-header{
+    font: 48px poppins,sans-serif;
+}
+.Hleft-paraheadind{
+    font: 15px poppins,sans-serif;
+    color: #000000;
+}
+
+.img-h{
+    height: auto;
+    width: 90%;
+}
+
+    .Mentor-card1{
+background-color:#ff81ad2d;
+height: 320px;
+width: 380px;
+border-radius: 10px;
+gap: 1rem;
+padding: 2rem;
+width: 22rem;
+    
+
+}
+
+    .Mentor-card-image1 img{
+        height: 80px;
+        
+        
+    }
+
+    .Menter-para{
+        box-sizing: border-box;
+        padding: 2px;
+        margin: 13px 2px 2px 2px;
+        font-family: Poppins,sans-serif;
+    } */

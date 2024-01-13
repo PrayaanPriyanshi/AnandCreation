@@ -1,0 +1,58 @@
+/* Reset margin and padding for body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.footerMain {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 60px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  /* flex-wrap: wrap; */
+}
+
+.fdiv1 {
+  margin-left: 0;
+  flex-basis: calc(25% - 20px);
+}
+
+.fdiv2 {
+  margin-left: 20px;
+  flex-basis: calc(25% - 20px);
+  width:50px
+}
+
+.fdiv3 {
+  margin-left: 20px;
+  flex-basis: calc(25% - 20px);
+}
+
+.fdiv4 {
+  margin-left: 20px;
+  flex-basis: calc(25% - 20px);
+}
+
+
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fdiv1,
+  .fdiv2,
+  .fdiv3,
+  .fdiv4 {
+    flex-basis: calc(100% - 20px);
+  }
+}

@@ -1,0 +1,26 @@
+.RangeArgentineHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://watermark.lovepik.com/photo/20211119/large/lovepik-warm-color-bedroom-wardrobe-picture_500297856.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 50px 0; /* Adjust top and bottom padding as needed */
+    position: relative;
+    min-height: 400px;
+    backdrop-filter: brightness(70%);
+  }
+  
+  .RangeArgentineHeader h2 {
+    font-size: 3.5rem;
+    color: black;
+    line-height: 1.25em;
+    padding: 0;
+    margin: 0;
+    border-bottom: 4px solid black;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+  }

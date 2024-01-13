@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .MainWardrobe {
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .WardrobeHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://watermark.lovepik.com/photo/20211119/large/lovepik-warm-color-bedroom-wardrobe-picture_500297856.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 50px 0; /* Adjust top and bottom padding as needed */
+    position: relative;
+    min-height: 400px;
+    backdrop-filter: brightness(70%);
+  }
+  
+  .WardrobeHeader h2 {
+    font-size: 3.5rem;
+    color: black;
+    line-height: 1.25em;
+    padding: 0;
+    margin: 0;
+    border-bottom: 4px solid black;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+  }
+
+  .WardrobesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px; /* Adjust the margin as needed */
+  }
+  
+  .WardrobesImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    max-width: 100%; /* Adjust the maximum width as needed */
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    overflow: hidden;
+    gap: 30px; /* Add 10px gap between flex items */
+   
+  }
+  
+  .WardrobesImage img {
+    width: 100%; /* Adjust to make images take up full width of the container */
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .WardrobesImage img:hover {
+    transform: translateY(-5px) scale(1.1); /* Add scale for zoom effect */
+  }
+  
+  

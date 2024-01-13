@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.pleft {
+  display: flex;
+  align-items: center;
+}
+
+.phoneIcon,
+.email {
+  margin-left: 30px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+}
+
+.email svg {
+  margin-right: 5px;
+}
+
+.firight {
+  display: flex;
+}
+
+.facebooklogo,
+.instalogo {
+  font-size: 24px;
+  margin-right: 20px;
+ /* Add some space between logos */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pleft,
+  .firight {
+    width: 100%;
+  }
+
+  .phoneIcon,
+  .email {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .facebooklogo,
+  .instalogo {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

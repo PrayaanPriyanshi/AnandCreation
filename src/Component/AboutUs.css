@@ -1,0 +1,303 @@
+/* .container {
+  padding: 20px;
+  margin: 5px 85px 20px 85px;
+} */
+
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: underline; */
+    background-image: url("https://urbankitchens.co.in/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-04-at-6.47.31-PM.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    min-height: 218px;
+   backdrop-filter: brightness(70%);
+  }
+  .Header h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    line-height: 1.25em;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid black;
+    font-weight: 500;
+    font-family: "Poppins", Sans-serif;
+  }
+  .about h2 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25em;
+  }
+  
+  .buttons {
+    font-family: sans-serif;
+    height: 45px;
+    width: 150px;
+    background-color: #ffc809;
+    font-weight: bold;
+    text-decoration: inherit;
+    flex-grow: 1;
+    order: 10;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    font-size: 15px;
+    border-color: #ffc809;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .buttons:hover {
+    color: #ffc809;
+    background-color: #ffffff00;
+    border-color: #ffc809;
+  }
+  .halfSection {
+    display: flex;
+    height: auto;
+    width: 50%;
+    /* border: 5px solid black; */
+    column-gap: 10px;
+  }
+  .section {
+    padding: 20px;
+    margin: 5px 85px 20px 85px;
+    display: flex;
+    width: 1110px;
+    height: 900px;
+    gap: 40px;
+  }
+  .abx {
+    position: relative;
+    /* border: 2px solid red;  */
+    height: 300px;
+    width: 320px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+  .about {
+    font-family: "Poppins", Sans-serif;
+    width: 50%;
+    color: #54595f;
+  }
+  .first {
+    margin-top: 40px;
+  }
+  .Firstthalf {
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+  }
+  .Firstthalf1 {
+    margin-top: 80px;
+  }
+  .video {
+    display: flex;
+    column-gap: 30px;
+    height: 500px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: rgb(0, 0, 0);
+    /* filter: brightness(70%); */
+    color: white;
+  }
+  .videos {
+    vertical-align: baseline;
+    font-style: inherit;
+    color: #54595f;
+    text-align: justify;
+    font-family: "Poppins", Sans-serif;
+    margin-top: 25px;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    gap: 10px;
+    /* background-color: rgb(96, 92, 92); */
+  }
+  .textt {
+    margin-top: 25px;
+  }
+  .videoback {
+    /* filter: brightness(70%); */
+    background-image: url("https://urbankitchens.co.in/wp-content/uploads/2023/05/classic_contemporary-51-desk_720x.jpg");
+    opacity: 1;
+  }
+  .videos1 {
+    /* font-family: "Poppins", Sans-serif; */
+    display: flex;
+    column-gap: 45px;
+    height: 510px;
+    width: 100%;
+    background-color: rgb(62, 35, 35);
+    color: #ffffff;
+    font-family: sans-serif;
+    padding: 25px;
+  }
+  .videos1a {
+    font-family: "Poppins", Sans-serif;
+    height: auto;
+    width: 50%;
+    font-size: larger;
+  }
+  .videos1b {
+    /* font-family: "Poppins", Sans-serif; */
+    height: auto;
+    width: 50%;
+    margin-right: 90px;
+  }
+  .videos2 {
+    height: 500px;
+    width: 100%;
+    /* background-color: rgb(243, 233, 233); */
+    font-family: sans-serif;
+  }
+  .videos2 h1 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2.8rem;
+  }
+  .videos2same {
+    font-family: "Poppins", Sans-serif;
+    height: 420px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 18px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .videos2same img {
+    height: 80px;
+    margin-left: 20px;
+  }
+  .videos2same h3 {
+    /* font-weight: 10px; */
+    font-size: 1.2rem;
+  }
+  
+  .videos2same p {
+    /* font-weight: 10px; */
+    font-size: 1rem;
+  }
+  .videoss {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+  }
+  .first {
+    width: 50%;
+  }
+  .videoplay {
+    /* filter: brightness(100%); */
+    margin: 50px 10px 0px 0px;
+    height: 370px;
+    width: 700px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+  .Multiple-images {
+    height: 340px;
+    width: 700px;
+    /* border: 3px solid black; */
+    /* display: flex; */
+    justify-content: center;
+    margin-right: 20px;
+  }
+  .multiImg1 img {
+    height: 150px;
+    width: 230px;
+  }
+  .multiImg2 img {
+    height: 150px;
+    width: 230px;
+  }
+  .multiImg3 img {
+    height: 150px;
+    width: 230px;
+  }
+  .multiImg4 img {
+    height: 190px;
+    width: 320px;
+  }
+  .multiImg5 img {
+    height: 190px;
+    width: 320px;
+  }
+  .multi1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .multi2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .sets {
+    margin-left: 20px;
+    width: 520px;
+  }
+  
+  .Texts {
+    padding: 30px;
+    margin: 90px 65px 0px 65px;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-style: inherit;
+    color: #54595f;
+    text-align: justify;
+    font-family: "Poppins", Sans-serif;
+  }
+  .Texts h1 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2.8rem;
+    color: black;
+  }
+  
+
+
+
+
+  /* AboutUs.css */
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Add styling for other sections as needed */
+  
+  /* Example styling for Header */
+  .Header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Example styling for section */
+  .section {
+    margin: 20px;
+  }
+  
+  /* Example styling for videos */
+  .video {
+    margin: 20px;
+  }
+  
+  /* Add styling for other sections as needed */
+  
