@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://watermark.lovepik.com/photo/20211119/large/lovepik-warm-color-bedroom-wardrobe-picture_500297856.jpg");
+    background-image: url("https://urbankitchens.co.in/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-04-at-6.41.15-PM-1024x683.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,11 +16,133 @@
   
   .RangeRonceHeader h2 {
     font-size: 3.5rem;
-    color: black;
+    color: white;
     line-height: 1.25em;
     padding: 0;
     margin: 0;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid orange;
     font-weight: 600;
     font-family: "Poppins", Sans-serif;
   }
+
+
+   /* styles.css */
+.RangeRonceImages {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.RonceDiv1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.RonceImg1,
+.RonceImg2,
+.RonceImg3 {
+  flex: 1;
+  margin: 0 5px;
+}
+
+/* styles.css */
+.RonceDiv2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+}
+
+.RonceImg4,
+.RonceImg5,
+.RonceImg6 {
+  flex: 1;
+  margin: 0 5px; /* Add some margin between images */
+}
+
+.RonceDiv3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+}
+
+.RonceImg7,
+.RonceImg8,
+.RonceImg9 {
+  flex: 1;
+  margin: 0 5px; /* Add some margin between images */
+}
+
+/* styles.css */
+
+/* ... Existing styles ... */
+
+.RangeRonceImages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; 
+}
+
+.RonceDiv1,
+.RonceDiv2,
+.RonceDiv3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.RonceImg1,
+
+.RonceImg4,
+.RonceImg5,
+.RonceImg6,
+.RonceImg7,
+.RonceImg8,
+.RonceImg9 {
+  flex: 1;
+  margin: 0 5px;
+  max-width: 30%; /* Adjust as needed */
+  max-height: 200px; /* Adjust as needed */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+
+.RonceImg2,
+.RonceImg3{
+  flex: 1;
+  margin: 0 5px;
+  max-width: 30%; /* Adjust as needed */
+  max-height: 500px; /* Adjust as needed */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.RonceImg1 img,
+.RonceImg2 img,
+.RonceImg3 img,
+.RonceImg4 img,
+.RonceImg5 img,
+.RonceImg6 img,
+.RonceImg7 img,
+.RonceImg8 img,
+.RonceImg9 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust as needed */
+}
+
+
+.RonceImg1:hover,
+.RonceImg2:hover,
+.RonceImg3:hover,
+.RonceImg4:hover,
+.RonceImg5:hover,
+.RonceImg6:hover,
+.RonceImg7:hover,
+.RonceImg8:hover,
+.RonceImg9:hover {
+  transform: scale(1.1); /* Zoom in by 10% on hover */
+}
+

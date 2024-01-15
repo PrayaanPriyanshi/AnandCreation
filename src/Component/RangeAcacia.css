@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://watermark.lovepik.com/photo/20211119/large/lovepik-warm-color-bedroom-wardrobe-picture_500297856.jpg");
+    background-image: url("https://urbankitchens.co.in/wp-content/uploads/2023/07/Picture2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,15 +12,122 @@
     position: relative;
     min-height: 400px;
     backdrop-filter: brightness(70%);
+    
   }
   
   .RangeAcaciaHeader h2 {
     font-size: 3.5rem;
-    color: black;
+    color: orange;
     line-height: 1.25em;
     padding: 0;
     margin: 0;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid orange;
     font-weight: 600;
     font-family: "Poppins", Sans-serif;
   }
+
+
+   /* styles.css */
+.RangeAcaciaImages {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+  
+  margin: 20px 100px 20px 100px;
+}
+
+.AcaciaDiv1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.AcaciaImg1,
+.AcaciaImg2,
+.AcaciaImg3 {
+  flex: 1;
+  margin: 0 5px;
+}
+
+/* styles.css */
+.AcaciaDiv2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+}
+
+.AcaciaImg4,
+.AcaciaImg5,
+.AcaciaImg6 {
+  flex: 1;
+  margin: 0 20px; /* Add some margin between images */
+}
+
+/* .ArgentineDiv3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+
+
+/* .ArgentineImg7,
+.ArgentineImg8,
+.ArgentineImg9 {
+  flex: 1;
+  margin: 0 5px; Add some margin between images */
+ 
+
+/* styles.css */
+
+/* ... Existing styles ... */
+
+.RangeAcaciaImages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; 
+}
+
+.AcaciaDiv1,
+.AcaciaDiv2
+ {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.AcaciaImg1,
+.AcaciaImg2,
+.AcaciaImg3,
+.AcaciaImg4,
+.AcaciaImg5,
+.AcaciaImg6
+{
+  flex: 1;
+  margin: 0 5px;
+  max-width: 30%; /* Adjust as needed */
+  max-height: 200px; /* Adjust as needed */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.AcaciaImg1 img,
+.AcaciaImg2 img,
+.AcaciaImg3 img,
+.AcaciaImg4 img,
+.AcaciaImg5 img,
+.AcaciaImg6 img
+ {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust as needed */
+}
+
+
+.AcaciaImg1:hover,
+.AcaciaImg2:hover,
+.AcaciaImg3:hover,
+.AcaciaImg4:hover,
+.AcaciaImg5:hover,
+.AcaciaImg6:hover {
+  transform: scale(1.1); /* Zoom in by 10% on hover */
+}

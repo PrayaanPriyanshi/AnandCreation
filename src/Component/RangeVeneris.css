@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://watermark.lovepik.com/photo/20211119/large/lovepik-warm-color-bedroom-wardrobe-picture_500297856.jpg");
+    background-image: url("https://urbankitchens.co.in/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-04-at-6.47.30-PM-2.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,11 +17,120 @@
   
   .RangeVenerisHeader h2 {
     font-size: 3.5rem;
-    color: black;
+    color: white;
     line-height: 1.25em;
     padding: 0;
     margin: 0;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid orange;
     font-weight: 600;
     font-family: "Poppins", Sans-serif;
   }
+
+  /* styles.css */
+.RangeVenerisImages {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 100px 30px 100px;
+}
+
+.VenerisDiv1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.VenerisImg1,
+.VenerisImg2,
+.VenerisImg3 {
+  flex: 1;
+  margin: 0 2.5px;
+}
+
+/* styles.css */
+.VenerisDiv2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+}
+
+.VenerisImg4,
+.VenerisImg5,
+.VenerisImg6 {
+  flex: 1;
+  margin: 0 5px; /* Add some margin between images */
+}
+
+.VenerisDiv3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+}
+
+.VenerisImg7,
+.VenerisImg8,
+.VenerisImg9 {
+  flex: 1;
+  margin: 0 5px; /* Add some margin between images */
+}
+
+/* styles.css */
+
+/* ... Existing styles ... */
+
+.RangeVenerisImages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; 
+}
+
+.VenerisDiv1,
+.VenerisDiv2,
+.VenerisDiv3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.VenerisImg1,
+.VenerisImg2,
+.VenerisImg3,
+.VenerisImg4,
+.VenerisImg5,
+.VenerisImg6,
+.VenerisImg7,
+.VenerisImg8,
+.VenerisImg9 {
+  flex: 1;
+  margin: 0 5px;
+  max-width: 30%; /* Adjust as needed */
+  max-height: 200px; /* Adjust as needed */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.VenerisImg1 img,
+.VenerisImg2 img,
+.VenerisImg3 img,
+.VenerisImg4 img,
+.VenerisImg5 img,
+.VenerisImg6 img,
+.VenerisImg7 img,
+.VenerisImg8 img,
+.VenerisImg9 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust as needed */
+}
+
+
+.VenerisImg1:hover,
+.VenerisImg2:hover,
+.VenerisImg3:hover,
+.VenerisImg4:hover,
+.VenerisImg5:hover,
+.VenerisImg6:hover,
+.VenerisImg7:hover,
+.VenerisImg8:hover,
+.VenerisImg9:hover {
+  transform: scale(1.1); /* Zoom in by 10% on hover */
+}

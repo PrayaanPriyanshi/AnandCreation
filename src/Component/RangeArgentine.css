@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://watermark.lovepik.com/photo/20211119/large/lovepik-warm-color-bedroom-wardrobe-picture_500297856.jpg");
+    background-image: url("https://urbankitchens.co.in/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-04-at-6.46.46-PM.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,11 +16,123 @@
   
   .RangeArgentineHeader h2 {
     font-size: 3.5rem;
-    color: black;
+    color: white;
     line-height: 1.25em;
     padding: 0;
     margin: 0;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid orange;
     font-weight: 600;
     font-family: "Poppins", Sans-serif;
   }
+
+
+
+  /* styles.css */
+.RangeArgentineImages {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.ArgentineDiv1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.ArgentineImg1,
+.ArgentineImg2,
+.ArgentineImg3 {
+  flex: 1;
+  margin: 0 5px;
+}
+
+/* styles.css */
+.ArgentineDiv2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+}
+
+.ArgentineImg4,
+.ArgentineImg5,
+.ArgentineImg6 {
+  flex: 1;
+  margin: 0 5px; /* Add some margin between images */
+}
+
+.ArgentineDiv3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+}
+
+.ArgentineImg7,
+.ArgentineImg8,
+.ArgentineImg9 {
+  flex: 1;
+  margin: 0 5px; /* Add some margin between images */
+}
+
+/* styles.css */
+
+/* ... Existing styles ... */
+
+.RangeArgentineImages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; 
+}
+
+.ArgentineDiv1,
+.ArgentineDiv2,
+.ArgentineDiv3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.ArgentineImg1,
+.ArgentineImg2,
+.ArgentineImg3,
+.ArgentineImg4,
+.ArgentineImg5,
+.ArgentineImg6,
+.ArgentineImg7,
+.ArgentineImg8,
+.ArgentineImg9 {
+  flex: 1;
+  margin: 0 5px;
+  max-width: 30%; /* Adjust as needed */
+  max-height: 200px; /* Adjust as needed */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.ArgentineImg1 img,
+.ArgentineImg2 img,
+.ArgentineImg3 img,
+.ArgentineImg4 img,
+.ArgentineImg5 img,
+.ArgentineImg6 img,
+.ArgentineImg7 img,
+.ArgentineImg8 img,
+.ArgentineImg9 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust as needed */
+}
+
+
+.ArgentineImg1:hover,
+.ArgentineImg2:hover,
+.ArgentineImg3:hover,
+.ArgentineImg4:hover,
+.ArgentineImg5:hover,
+.ArgentineImg6:hover,
+.ArgentineImg7:hover,
+.ArgentineImg8:hover,
+.ArgentineImg9:hover {
+  transform: scale(1.1); /* Zoom in by 10% on hover */
+}

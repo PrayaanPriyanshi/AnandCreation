@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://watermark.lovepik.com/photo/20211119/large/lovepik-warm-color-bedroom-wardrobe-picture_500297856.jpg");
+    background-image: url("https://urbankitchens.co.in/wp-content/uploads/2023/06/03-2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,11 +16,116 @@
   
   .RangeCeramicHeader h2 {
     font-size: 3.5rem;
-    color: black;
+    color: white;
     line-height: 1.25em;
     padding: 0;
     margin: 0;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid orange;
     font-weight: 600;
     font-family: "Poppins", Sans-serif;
   }
+
+
+
+   /* styles.css */
+.RangeCeramicImages {
+  display: flex;
+  flex-direction: column;
+ 
+  
+  margin: 20px 100px 20px 100px;
+}
+
+.CeramicDiv1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.CeramicImg1,
+.CeramicImg2 {
+  flex: 1;
+  margin: 0 2.5px; /* Adjust the right margin to reduce the gap */
+  max-width: 100%; /* Adjust as needed */
+  max-height: 300px; /* Increase the max-height as desired */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+
+
+
+/* styles.css */
+.CeramicDiv2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+}
+
+.CeramicImg4,
+.CeramicImg5
+ {
+  flex: 1;
+  margin: 0 20px; /* Add some margin between images */
+}
+
+
+ 
+
+/* styles.css */
+
+/* ... Existing styles ... */
+
+.RangeCeramicImages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; 
+}
+
+.CeramicDiv1,
+.CeramicDiv2
+ {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+.CeramicImg1,
+.CeramicImg2,
+
+.CeramicImg4,
+.CeramicImg5
+
+{
+  flex: 1;
+  margin: 0 5px;
+  max-width: 30%; /* Adjust as needed */
+  max-height: 200px; /* Adjust as needed */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.CeramicImg1 img,
+.CeramicImg2 img,
+
+.CeramicImg4 img,
+.CeramicImg5 img
+
+ {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust as needed */
+}
+
+
+.CeramicImg1:hover,
+.CeramicImg2:hover,
+
+.CeramicImg4:hover,
+.CeramicImg5:hover
+ {
+  transform: scale(1.1); /* Zoom in by 10% on hover */
+}

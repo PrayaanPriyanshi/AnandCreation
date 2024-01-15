@@ -210,6 +210,8 @@
   }
   .Multiple-images {
     height: 340px;
+
+
     width: 700px;
     /* border: 3px solid black; */
     /* display: flex; */
@@ -245,7 +247,7 @@
     justify-content: space-around;
   }
   .sets {
-    margin-left: 20px;
+    margin-left: 70px;
     width: 520px;
   }
   
@@ -300,4 +302,241 @@
   }
   
   /* Add styling for other sections as needed */
+
+
+
+
+
+
+  /* Start now */
   
+
+  .HomeContainer1 {
+    margin-top: 40px;
+  
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .text1 {
+    color: #ff2e77;
+  
+    font-size: 1.2rem;
+  
+    font-weight: 600;
+  
+    margin-left: 150px;
+  
+    margin-bottom: 16px;
+  
+    margin-top: 30px;
+    font-family: 19.2px Poppins, sans-serif;
+  }
+  
+  .text2 {
+    width: 519px;
+  
+    margin-left: 150px;
+  
+    font-size: 3rem;
+    color: black;
+    font-weight: 800;
+  
+    line-height: 1.2;
+    font-family: 19.2px Poppins, sans-serif;
+  }
+  
+  .para {
+    width: 515px;
+  
+    margin-left: 137px;
+  
+    font-family: sans-serif;
+  
+    width: 487px;
+  
+    margin-top: 23px;
+  
+    margin-left: 152px;
+  
+    font-family: 16px Poppins, sans-serif;
+  }
+  
+  .text {
+    margin-left: -43px;
+    margin-top: 150px;
+  }
+  
+  .collection {
+    display: flex;
+  
+    height: 700px;
+  
+    width: 600px;
+  
+    align-items: center;
+  
+    display: flex;
+  
+    flex-direction: row;
+  
+    justify-content: center;
+  
+    width: 50%;
+    margin-top: -80px;
+  }
+  
+  /* styles.css */
+  
+  .knowmore1 {
+    background-color: orange;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 130px;
+  
+    /* Add any additional styles you want */
+  }
+  
+  .knowmore:hover {
+    background-color: #2980b9;
+  }
+  
+  .first {
+    border-radius: 10px;
+  
+    display: flex;
+  
+    height: auto;
+  
+    justify-content: center;
+  
+    object-fit: cover;
+  
+    width: 10rem;
+  }
+  
+  .second {
+    margin-left: 10px;
+  
+    border-radius: 10px;
+  
+    display: flex;
+  
+    height: 450px;
+  
+    justify-content: center;
+  
+    object-fit: cover;
+  
+    margin-top: 600px;
+  
+    width: 300px;
+    margin-right: 40px;
+  }
+  
+  .third {
+    border-radius: 10px;
+  
+    display: flex;
+  
+    height: 450px;
+  
+    justify-content: center;
+  
+    margin: 0.1rem;
+  
+    object-fit: cover;
+  
+    width: 300px;
+    margin-top: 50px;
+  }
+  
+  /* .fourth{
+  
+      border-radius: 10px;
+  
+      display: flex;
+  
+      height: auto;
+  
+      justify-content: center;
+  
+      margin: 0.8rem;
+  
+      object-fit: cover;
+  
+      width: 10rem;
+  
+  } */
+  
+  .fifth {
+    border-radius: 10px;
+  
+    display: flex;
+  
+    height: 450px;
+  
+    justify-content: center;
+    width: 300px;
+    margin-top: 400px;
+  
+    margin-left: 0 !important;
+  
+    object-fit: cover;
+  }
+  
+  .sixth {
+    height: 450px;
+  
+    width: 300px;
+  
+    margin-top: 7px;
+  
+    border-radius: 10px;
+  
+    margin-left: 2px;
+    margin-top: 40px;
+  }
+
+  .main-left1 {
+    display: flex;
+    flex-direction: column; /* Display items in a column */
+    align-items: center;
+  }
+  
+  .main-left-item1 {
+    width: 600px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+   
+  }
+  
+  .main-left-item1 img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 1rem; /* Adjust the spacing between image and text */
+  }
+  
+  .main-left-item-hp1 {
+    text-align: left; /* Align text to the left */
+  }
+  
+  .main-left-item-hp1 h3,
+  .main-left-item-hp1 p {
+    margin: 0; /* Remove default margin for h3 and p */
+  }
+  
+
+  .sets1{
+    height: 300px;
+    width: 600px;
+    margin: 50px 30px 0 50px;
+  }

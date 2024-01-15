@@ -1,3 +1,9 @@
+
+
+
+
+
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Component/Navbar';
@@ -16,12 +22,14 @@ import RangeRonce from './Component/RangeRonce';
 import RangeVeneris from './Component/RangeVeneris';
 import Footer from './Component/Footer';
 
+
 function App() {
   return (
     <Router>
       <div>
         <Header />
         <Navbar />
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />

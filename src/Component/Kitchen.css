@@ -162,12 +162,12 @@
     height: 40px;
     width: 160px;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 5px 15px 5px 15px;
     transition: background-color 0.3s ease; /* Add a smooth transition effect */
   }
   
   .KitchenButton:hover {
-    background-color: darkorange; /* Set the desired hover background color */
+    background-color: red; /* Set the desired hover background color */
   }
   
   /* Apply styles to the KitchenImage1 container on the right */
@@ -384,4 +384,51 @@
     height: 400px;
     border-radius: 10px;
     margin-bottom: 10px;
+  }
+
+
+  @media only screen and (max-width: 767px) {
+    .KitchenHeader {
+      padding: 20px 0; /* Adjust top and bottom padding for smaller screens */
+
+    }
+  
+    .KitchenHeader h2 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+    
+    .KitchenMain1,
+    .KitchenMain2 {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .KitchenImage1,
+    .KitchenImage2,
+    .KitchenImage3,
+    .KitchenImage4,
+    .KitchenImage5,
+    .KitchenImage6,
+    .KitchenImage7 {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 20px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .KitchenContent,
+    .KitchenContent1,
+    .KitchenContent2,
+    .KitchenContent3,
+    .KitchenContent4,
+    .KitchenContent5,
+    .KitchenContent6,
+    .KitchenContent7 {
+      padding: 10px;
+    }
+  
+    .KitchenButton {
+      width: 100%;
+    }
   }
