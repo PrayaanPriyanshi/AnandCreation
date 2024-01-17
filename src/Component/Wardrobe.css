@@ -46,6 +46,17 @@ body {
     font-weight: 600;
     font-family: "Poppins", Sans-serif;
   }
+
+
+  @media (max-width: 768px) {
+    .WardrobeHeader {
+      min-height: 230px; /* Adjust the minimum height for even smaller screens */
+    }
+  
+    .WardrobeHeader h2 {
+      font-size: 1.5rem; /* Further reduce the font size for smaller screens */
+    }
+  }
   
   
   
@@ -83,7 +94,25 @@ body {
   }
 
 
-  @media only screen and (max-width: 767px) {
+  @media (max-width: 768px) {
+    .WardrobesImage {
+      flex-direction: column;
+      height: 800px;
+      gap: 10px;
+    }
+  
+    .WardrobesImage img {
+      width:500px
+    }
+  
+    .WardrobesContainer {
+      flex-direction: column;
+      margin: 20px;
+    }
+  
+  }
+
+  /* @media only screen and (max-width: 767px) {
     .WardrobeHeader {
       padding: 30px 0;
       min-height: 300px;
@@ -111,4 +140,4 @@ body {
   
    
   }
-  
+   */

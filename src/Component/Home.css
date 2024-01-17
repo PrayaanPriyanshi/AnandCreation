@@ -660,6 +660,7 @@ p {
 
 .main9P {
   margin-bottom: 40px;
+  font-size: 20px;
 }
 
 /* Responsive styles */
@@ -923,51 +924,65 @@ p {
 }
 
 /* Apply styles to the left side div */
+
+/* Add these styles to your existing CSS or create a new CSS file */
+
+.main11 {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
 .main11Left {
-  flex: 0 0 48%; /* Set the width of the left side div */
+  width: 50%;
 }
 
-/* Apply styles to the image inside the left side div */
 .main11Left img {
-  width: 100%; /* Make the image fill the entire width of its container */
-  height: auto; /* Maintain the aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
-/* Apply styles to the right side div */
 .main11Right {
-  flex: 0 0 48%; /* Set the width of the right side div */
-  overflow: hidden;
-  height: 300px; /* Set the desired height */
-  width: 100%; /* Set the desired width */
-  border: 2px solid #ccc; /* Set the desired border styles */
-  padding: 10px; /* Add padding if needed */
+  width: 50%;
+  padding: 20px; /* Add padding for better readability */
   box-sizing: border-box;
 }
 
-/* Apply styles to the paragraphs inside the right side div */
-.main11Right p {
-  margin-bottom: 20px; /* Add some space between paragraphs */
+.main11Right h1 {
+  color: white;
+  font-size: 28px; /* Adjust the size as needed */
+  font-weight: bold;
 }
 
-.testimonials-container {
+.main11Right p {
+  color: white;
+  background-color: black;
+}
+
+/* If you want to set a specific height for the right side, you can do it like this */
+.main11Right {
+  height: 400px; /* Set the height as needed */
+  overflow: auto; /* Add overflow for scroll if content exceeds height */
+}
+
+/* styles.css */
+/* styles.css */
+.StarIcon {
   display: flex;
-  flex-direction: column;
-  animation: slide 10s infinite; /* Adjust the duration based on your preference */
+  align-items: center;
+  justify-content: flex-start; /* Align to the left */
+  margin: 10px 0; /* Adjust the margin as needed */
 }
-@keyframes slide {
-  0%,
-  33.33% {
-    transform: translateY(0);
-  }
-  33.33%,
-  66.66% {
-    transform: translateY(-100%);
-  }
-  66.66%,
-  100% {
-    transform: translateY(-200%);
-  }
+
+.StarIcon svg {
+  color: #ffa500; /* Set the color to orange */
+  margin: 0 2px; /* Add margin between the stars */
 }
+
+
+
+/* Apply styles to the image inside the left side div */
+
 
 .main12Left {
   width: 300px;

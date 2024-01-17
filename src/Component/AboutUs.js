@@ -66,7 +66,7 @@ function AboutUs() {
      
 
 
-      <div className="main5">
+      <div className="main51">
       <div className="video">
         <iframe
           src="https://urbankitchens.co.in/wp-content/uploads/2023/07/Arancia-modular-kitchen.mp4"
@@ -78,9 +78,9 @@ function AboutUs() {
         ></iframe>
       </div>
       <div className="videoRight">
-        <h3>WE GAVE THE BEST</h3>
-        <h1>FROM FACTORY TO YOUR HOME – A JOURNEY</h1>
-        <h7>
+        <h3 style={{ fontSize: '18px', color: 'orange', marginBottom: '10px' , fontWeight: 'bold'  }}>WE GAVE THE BEST</h3>
+        <h1  style={{ fontSize: '30px', color: 'white', marginBottom: '10px' , fontWeight: 'bold'  }}>FROM FACTORY TO YOUR HOME – A JOURNEY</h1>
+        <h7 style={{ fontSize: '16px', color: 'white'}}>
           We know that the kitchen is at the heart of every home and that’s
           why no two Urban Kitchens are alike. We are taking you on a journey
           to see how a Urban kitchen comes to life, from design,
@@ -101,7 +101,7 @@ function AboutUs() {
     <div className="videos">
                <div className="sets">
                 <h3 style={{ color: "#FFC809" , fontSize:"25px" }}>WE GAVE THE BEST</h3>
-                <h2>MAKE YOUR STATEMENT IN STYLE</h2>
+                <h2  style={{ fontSize: '30px', color: 'black', marginBottom: '10px' , fontWeight: 'bold'  }}>MAKE YOUR STATEMENT IN STYLE</h2>
                  <p>
                   There are many things that complete you and your home. At Urban
                    Kitchen , we believe that your kitchen is one of them. Which is
@@ -159,12 +159,16 @@ function AboutUs() {
 
             <div className="videos1">
             <div className="sets1">
-             <h3 style={{ color: "#FFC809" , fontSize:"25px" }}>WE GAVE THE BEST</h3>
-             <h2>LET'S MAKE SPACE FOR SOMETHING NEW</h2>
+             <h1 style={{ color: "#FFC809" , fontSize:"25px" }}>LET'S MAKE SPACE FOR SOMETHING NEW</h1>
+            
               <p>
               It’s not everyday that we design a kitchen for you. So we’d rather make it special. This means we being all ears to understand you, your needs and your day. The usual and those unusual ones. And then making space to accommodate all that matters to you. Like a safe cabinet to keep your precious family crockery. Or then a breakfast table that can turn into a dimly lit midnight binge station with your little one? Pour out everything on us. And help us let you experience it.
               </p>
+              <Link to="/contact">
+              <button className="contectnow">Contect Now</button>
+            </Link>
             </div>
+            
             <div className="Multiple-images1">
             <div className="main-left1">
             
@@ -211,6 +215,49 @@ function AboutUs() {
            </div>
          </div>
 
+
+
+         <div className="videos2">
+                    <h2 style={{ fontSize: '40px', color: 'Black', marginTop: '60px', fontWeight: 'bold',textAlign:'center' }}>WHY URBAN KITCHENS</h2>
+                    <div className="videoss">
+                     <div className="videos2same">
+                        <img src="https://urbankitchens.co.in/wp-content/uploads/2023/06/service-image-retina-2.png" alt=""></img>
+                        <h3>10 Years</h3>
+                        <p>
+                          More than 10 Years of professional experience in modular industry.
+                         Partners with international Hardware and Accessories
+                          manufacturers to provide truly world class solutions
+                        </p>
+                      </div>
+                      <div className="videos2same">
+                     <img src="https://urbankitchens.co.in/wp-content/uploads/2023/06/service-image-retina-2.png" alt=""></img>
+                        <h3>Team of Experts</h3>
+                        <p>
+                          Team of expert designers to Design Customized yet functional
+                          kitchens with interactive designing focusing Indian consumer
+                         needs and climatic conditions
+                        </p>
+                      </div>
+                      <div className="videos2same">
+                     <img src="https://urbankitchens.co.in/wp-content/uploads/2023/06/service-image-retina-2.png" alt=""></img>
+                        <h3>Complete Factory</h3>
+                        <p>
+                          Complete factory made units manufactured (under ISO 9001
+                         norms)on best of the machines with several Quality Checks in
+                          place
+                        </p>
+                      </div>
+                      <div className="videos2same">
+                      <img src="https://urbankitchens.co.in/wp-content/uploads/2023/06/service-image-retina-2.png" alt=""></img>
+                        <h3>Experience</h3>
+                       <p>
+                          Installation by experienced and trained hands Wide range of
+                          design options to choose from – Material, Hardware,Fittings and
+                          Accessories, depending on individual taste and budget.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
     </div>
   )

@@ -25,6 +25,16 @@
     font-family: "Poppins", Sans-serif;
   }
 
+  @media (max-width: 768px) {
+    .KitchenHeader {
+      min-height: 230px; /* Adjust the minimum height for even smaller screens */
+    }
+  
+    .KitchenHeader h2 {
+      font-size: 1.5rem; /* Further reduce the font size for smaller screens */
+    }
+  }
+
 
 
 

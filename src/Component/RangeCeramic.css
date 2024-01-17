@@ -24,6 +24,16 @@
     font-weight: 600;
     font-family: "Poppins", Sans-serif;
   }
+  .RangeCeramicHeader::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity as needed */
+    z-index: -1; /* Ensure the pseudo-element is positioned below the content */
+  }
 
 
 
@@ -33,44 +43,20 @@
   flex-direction: column;
  
   
-  margin: 20px 100px 20px 100px;
+  margin: 20px 200px 20px 200px;
 }
 
-.CeramicDiv1 {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
 
-.CeramicImg1,
-.CeramicImg2 {
-  flex: 1;
-  margin: 0 2.5px; /* Adjust the right margin to reduce the gap */
-  max-width: 100%; /* Adjust as needed */
-  max-height: 300px; /* Increase the max-height as desired */
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
+
+
 
 
 
 
 /* styles.css */
-.CeramicDiv2 {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
-}
-
-.CeramicImg4,
-.CeramicImg5
- {
-  flex: 1;
-  margin: 0 20px; /* Add some margin between images */
-}
 
 
- 
+
 
 /* styles.css */
 
@@ -82,16 +68,20 @@
   margin-top: 20px; 
 }
 
-.CeramicDiv1,
-.CeramicDiv2
- {
+
+.CeramicDiv1 {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 10px;
-  width: 80%; /* Adjust the width as needed */
-  margin: 0 auto;
+ 
+  margin-bottom: 10px; /* Add some margin between VenerisDiv1 and VenerisDiv2 */
 }
+
+.CeramicDiv2 {
+  display: flex;
+  
+}
+
+/* ... Existing styles ... */
+
 
 .CeramicImg1,
 .CeramicImg2,
@@ -102,14 +92,18 @@
 {
   flex: 1;
   margin: 0 5px;
-  max-width: 30%; /* Adjust as needed */
-  max-height: 200px; /* Adjust as needed */
+  
   overflow: hidden;
   transition: transform 0.3s ease;
 }
 
 .CeramicImg1 img,
-.CeramicImg2 img,
+.CeramicImg2 img
+ {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust as needed */
+}
 
 .CeramicImg4 img,
 .CeramicImg5 img
@@ -117,7 +111,7 @@
  {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Adjust as needed */
+  object-fit: contain; /* Adjust as needed */
 }
 
 

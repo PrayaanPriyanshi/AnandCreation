@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://watermark.lovepik.com/photo/20211119/large/lovepik-warm-color-bedroom-wardrobe-picture_500297856.jpg");
+    background-image: url("https://urbankitchens.co.in/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-04-at-6.45.41-PM-1024x682.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,53 +16,261 @@
   
   .RangeHeader h2 {
     font-size: 3.5rem;
-    color: black;
+    color: white;
     line-height: 1.25em;
     padding: 0;
     margin: 0;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid orange;
     font-weight: 600;
     font-family: "Poppins", Sans-serif;
   }
+  .RangeHeader::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity as needed */
+    z-index: -1; /* Ensure the pseudo-element is positioned below the content */
+  }
+
+  @media (max-width: 768px) {
+    .RangeHeader {
+      min-height: 230px; /* Adjust the minimum height for even smaller screens */
+    }
+  
+    .RangeHeader h2 {
+      font-size: 1.5rem; /* Further reduce the font size for smaller screens */
+    }
+  }
+  
+  
 
 
 
-  .Multiple-images {
-    height: 340px;
-    width: 700px;
-    /* border: 3px solid black; */
-    /* display: flex; */
-    justify-content: center;
-    margin-right: 20px;
+   /* styles.css */
+   .RangeCharmeImages {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
   }
-  .multiImg1 img {
-    height: 150px;
-    width: 230px;
+  
+  .RonceCharmeDiv1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
   }
-  .multiImg2 img {
-    height: 150px;
-    width: 230px;
+  
+  .RonceCharmeImg21,
+  .RonceCharmeImg2,
+  .RonceCharmeImg3 {
+    flex: 1;
+    margin: 0 5px;
   }
-  .multiImg3 img {
-    height: 150px;
-    width: 230px;
+  
+  /* styles.css */
+  .RonceCharmeDiv2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
   }
-  .multiImg4 img {
-    height: 190px;
-    width: 320px;
+  
+  .RonceCharmeImg4,
+  .RonceCharmeImg5,
+  .RonceCharmeImg6 {
+    flex: 1;
+    margin: 0 5px; /* Add some margin between images */
   }
-  .multiImg5 img {
-    height: 190px;
-    width: 320px;
+  
+  .RonceCharmeDiv3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
   }
+  
+  .RonceCharmeImg7,
+  .RonceCharmeImg8,
+  .RonceCharmeImg9 {
+    flex: 1;
+    margin: 0 5px; /* Add some margin between images */
+  }
+  
+  /* styles.css */
+  
+  /* ... Existing styles ... */
+  
+  .RangeRonceCharmeImages {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; 
+  }
+  
+  .RonceCharmeDiv1,
+  .RonceCharmeDiv2,
+  .RonceCharmeDiv2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .RonceCharmeImg21,
+  
+  .RonceCharmeImg4,
+  .RonceCharmeImg5,
+  .RonceCharmeImg6,
+  .RonceCharmeImg7,
+  .RonceCharmeImg8,
+  .RonceCharmeImg9 {
+    flex: 1;
+    margin: 0 5px;
+    max-width: 30%; /* Adjust as needed */
+    max-height: 200px; /* Adjust as needed */
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .RonceCharmeImg2,
+  .RonceCharmeImg3{
+    flex: 1;
+    margin: 0 5px;
+    max-width: 60%; /* Adjust as needed */
+    max-height: 500px; /* Adjust as needed */
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .RonceCharmeImg21 img,
+  .RonceCharmeImg2 img,
+  .RonceCharmeImg3 img,
+  .RonceCharmeImg4 img,
+  .RonceCharmeImg5 img,
+  .RonceCharmeImg6 img,
+  .RonceCharmeImg7 img,
+  .RonceCharmeImg8 img,
+  .RonceCharmeImg9 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjust as needed */
+  }
+  
+  
+  .RonceCharmeImg21:hover,
+  .RonceCharmeImg2:hover,
+  .RonceCharmeImg3:hover,
+  .RonceCharmeImg4:hover,
+  .RonceCharmeImg5:hover,
+  .RonceCharmeImg6:hover,
+  .RonceCharmeImg7:hover,
+  .RonceCharmeImg8:hover,
+  .RonceCharmeImg9:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+  }
+  
 
 
-  .multiImg1 img,
-.multiImg2 img,
-.multiImg3 img,
-.multiImg4 img,
-.multiImg5 img {
-  margin-left: 50px; /* Add margin to all sides of the images */
-
-  width: 100%;
-}
+  @media (max-width: 768px) {
+    .RonceCharmeDiv1 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    .RonceCharmeImg21,
+    .RonceCharmeImg2,
+    .RonceCharmeImg3 {
+      flex: 1;
+      margin: 0 5px;
+    }
+    
+    /* styles.css */
+    .RonceCharmeDiv2 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+    }
+    
+    .RonceCharmeImg4,
+    .RonceCharmeImg5,
+    .RonceCharmeImg6 {
+      flex: 1;
+      margin: 0 5px; /* Add some margin between images */
+    }
+    
+    .RonceCharmeDiv3 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px; /* Add some margin between VenerisDiv2 rows */
+    }
+    
+    .RonceCharmeImg7,
+    .RonceCharmeImg8,
+    .RonceCharmeImg9 {
+      flex: 1;
+      margin: 0 5px; /* Add some margin between images */
+    }
+    
+    /* styles.css */
+    
+    /* ... Existing styles ... */
+    
+    .RangeRonceCharmeImages {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px; 
+    }
+    
+    .RonceCharmeDiv1,
+    .RonceCharmeDiv2,
+    .RonceCharmeDiv2 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    .RonceCharmeImg21,
+    
+    .RonceCharmeImg4,
+    .RonceCharmeImg5,
+    .RonceCharmeImg6,
+    .RonceCharmeImg7,
+    .RonceCharmeImg8,
+    .RonceCharmeImg9 {
+      flex: 1;
+      margin: 0 5px;
+      max-width: 30%; /* Adjust as needed */
+      max-height: 200px; /* Adjust as needed */
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    
+    
+    .RonceCharmeImg2,
+    .RonceCharmeImg3{
+      flex: 1;
+      margin: 0 5px;
+      max-width: 60%; /* Adjust as needed */
+      max-height: 500px; /* Adjust as needed */
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    
+    .RonceCharmeImg21 img,
+    .RonceCharmeImg2 img,
+    .RonceCharmeImg3 img,
+    .RonceCharmeImg4 img,
+    .RonceCharmeImg5 img,
+    .RonceCharmeImg6 img,
+    .RonceCharmeImg7 img,
+    .RonceCharmeImg8 img,
+    .RonceCharmeImg9 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Adjust as needed */
+    }
+  }
+  
+  

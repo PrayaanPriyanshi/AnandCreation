@@ -1,6 +1,8 @@
+/* Header.css */
+
+/* For large screens */
 .main {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: #333;
@@ -13,14 +15,28 @@
   align-items: center;
 }
 
-.phoneIcon,
-.email {
+.phoneIcon {
   margin-left: 30px;
 }
 
-.email {
+.contact-info {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px; /* Adjust margin as needed */
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: row; /* Display phone number and email on the same row */
+  margin-top: 5px; /* Adjust margin as needed */
+}
+
+.phoneNo,
+.email {
+  margin-right: 10px; /* Adjust margin as needed */
+  display: flex; /* Align icon and text on the same line */
+  align-items: center; /* Align icon and text on the same line */
 }
 
 .email svg {
@@ -35,30 +51,22 @@
 .instalogo {
   font-size: 24px;
   margin-right: 20px;
- /* Add some space between logos */
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .main {
+    display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center; /* Center content in the middle */
   }
 
-  .pleft,
-  .firight {
-    width: 100%;
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; /* Center content in the middle */
   }
-
-  .phoneIcon,
-  .email {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .facebooklogo,
-  .instalogo {
-    margin-left: 0;
-    margin-top: 10px;
-  }
+ 
 }
